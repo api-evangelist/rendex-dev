@@ -64,5 +64,155 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-rendex-dev is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://rendex.dev/
+Rendex provides a rendering API that converts HTML, URLs, or Markdown into images, PDFs, and OG graphics. It supports batch processing, geo‑targeted captures, signed webhooks, and integrates with automation platforms like n8n, Make, Zapier, and AI agents via MCP. Free tier offers 100 renders per month, with paid plans scaling to enterprise needs.
+
+**Areas:** Rendering · Screenshot · PDF · API · Automation
+
+## rendex-dev on APIs.io
+
+Everything profiled for rendex-dev is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/rendex-dev/](https://apis.io/providers/rendex-dev/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [rendex-dev Account API](https://apis.io/apis/rendex-dev/rendex-dev-account-api/) — Plan, usage, and upgrade information
+- [rendex-dev Batch API](https://apis.io/apis/rendex-dev/rendex-dev-batch-api/) — Multi-URL batch capture
+- [rendex-dev Health API](https://apis.io/apis/rendex-dev/rendex-dev-health-api/) — Service health checks
+- [rendex-dev Jobs API](https://apis.io/apis/rendex-dev/rendex-dev-jobs-api/) — Async job and batch status polling
+- [rendex-dev Screenshot API](https://apis.io/apis/rendex-dev/rendex-dev-screenshot-api/) — Capture webpage screenshots
+- [rendex-dev Watch API](https://apis.io/apis/rendex-dev/rendex-dev-watch-api/) — Website change monitoring — create watches, read run history, receive change webhooks. Rendex renders each check in real Chrome, runs a before/after visual…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Rendex Dev Webhooks](https://apis.io/asyncapis/rendex-dev/rendex-dev-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Rendex Dev Agentic Access](https://apis.io/agentic-access/rendex-dev/rendex-dev-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [CreateWatchRequest](https://apis.io/schemas/rendex-dev/rendex-dev-create-watch-request/)
+- [ScreenshotJsonResponse](https://apis.io/schemas/rendex-dev/rendex-dev-screenshot-json-response/)
+- [ScreenshotRequest](https://apis.io/schemas/rendex-dev/rendex-dev-screenshot-request/)
+- [UpdateWatchRequest](https://apis.io/schemas/rendex-dev/rendex-dev-update-watch-request/)
+- [Watch](https://apis.io/schemas/rendex-dev/rendex-dev-watch/)
+- [WatchRun](https://apis.io/schemas/rendex-dev/rendex-dev-watch-run/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Rendex Dev Context](https://apis.io/jsonld/rendex-dev/rendex-dev-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [rendex-dev API Rules](https://apis.io/rules/rendex-dev/rendex-dev-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Rendex Dev Authentication](https://apis.io/security/rendex-dev/rendex-dev-authentication/)
+- [Rendex Dev Domain Security](https://apis.io/security/rendex-dev/rendex-dev-domain-security/)
+- [Rendex Dev Vulnerability Disclosure](https://apis.io/security/rendex-dev/rendex-dev-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Rendex Dev Scopes](https://apis.io/scopes/rendex-dev/rendex-dev-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Rendex Dev Plans Pricing](https://apis.io/plans/rendex-dev/rendex-dev-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Rendex Dev Rate Limits](https://apis.io/rate-limits/rendex-dev/rendex-dev-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://rendex.dev/)
+- [Documentation](https://rendex.dev/docs)
+- [Getting started](https://rendex.dev/docs/quickstart)
+- [API reference](https://rendex.dev/docs/api-reference)
+- [Pricing](https://rendex.dev/pricing)
+- [Changelog](https://rendex.dev/changelog)
+- [Blog](https://rendex.dev/blog)
+- [Security](https://rendex.dev/security)
+- [Terms of service](https://rendex.dev/terms)
+- [Privacy policy](https://rendex.dev/privacy)
+- [Status](https://rendex.dev/status)
+
+## API Evangelist rating
+
+**Kin Score 75.0** — exemplar · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 69.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 78.4 |
+| Developer ergonomics | 66.0 |
+| Access clarity | 73.2 |
+
+**Agent readiness 62.5** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 40.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/rendex-dev/](https://apis.io/providers/rendex-dev/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for rendex-dev: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/rendex-dev/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
